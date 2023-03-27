@@ -112,8 +112,6 @@ public class SudokuModel {
         criarRestricaoParaNumeroNaoRepetirDentroDoBloco();
 
         // Execução!
-        model.exportToFile("teste.txt");
-
         CpSolver solver = new CpSolver();
         SolutionPrinter cb = new SolutionPrinter(varNumeroNaPosicao);
 
