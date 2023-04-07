@@ -1,7 +1,17 @@
 package org.example;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GradeDoSudoku gradeDoSudoku = new GradeDoSudoku();
+
+        try {
+            new GeradorDoSudoku(gradeDoSudoku);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        gradeDoSudoku.imprimirMatriz();
     }
+
 }
