@@ -1,4 +1,4 @@
-package org.example;
+package org.sudoku;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

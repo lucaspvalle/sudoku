@@ -1,4 +1,4 @@
-package org.example;
+package org.sudoku;
 
 public class Main {
 

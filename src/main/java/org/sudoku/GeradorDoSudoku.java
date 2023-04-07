@@ -1,4 +1,4 @@
-package org.example;
+package org.sudoku;
 
 import com.google.ortools.Loader;
 import com.google.ortools.sat.*;
