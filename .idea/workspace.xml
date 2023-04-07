@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07cd361d-5c4c-483f-bfac-f15f3ee98bb2" name="Changes" comment="retira linha de debug de modelo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GeradorDoSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GeradorDoSudokuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GradeDoSudokuTest.java" afterDir="false" />
+    <list default="true" id="07cd361d-5c4c-483f-bfac-f15f3ee98bb2" name="Changes" comment="refactor: corrige nome de pacote">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GradeDoSudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SudokuModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SudokuModelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SudokuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sudoku/GeradorDoSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sudoku/GeradorDoSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679957760480</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor:&#10;- simplifica código&#10;- reestruturação para que regras da classe não fiquem expostas em outras classes&#10;test:&#10;- melhora qualidade dos testes unitários">
+      <created>1680873809094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680873809094</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor: corrige nome de pacote">
+      <created>1680873933282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680873933282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -100,6 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
     <MESSAGE value="retira linha de debug de modelo" />
-    <option name="LAST_COMMIT_MESSAGE" value="retira linha de debug de modelo" />
+    <MESSAGE value="refactor:&#10;- simplifica código&#10;- reestruturação para que regras da classe não fiquem expostas em outras classes&#10;test:&#10;- melhora qualidade dos testes unitários" />
+    <MESSAGE value="refactor: corrige nome de pacote" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: corrige nome de pacote" />
   </component>
 </project>
